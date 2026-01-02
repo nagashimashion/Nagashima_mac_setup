@@ -98,7 +98,13 @@ eval "$(fnm env --use-on-cd)"
 
 - [ ] キーボード: リピート速度「最速」 / リピート認識時間「最短」
 
-- [ ] キーボード: 修飾キー変更 (Caps Lock -> Control 等)
+- [ ] キーボード: ライブ変換は右上の「あ」から切れるよ
+
+- [ ] トラックパッド: 
+  - [ ] 軌跡の速さ: 真ん中より早い
+  - [ ] クリック: 強い
+  - [ ] 調べる・データ検出: 切る（たまに出てくる辞書）
+
 
 ### Permissions (Security & Privacy)
 以下のアプリ起動時に、画面収録・アクセシビリティ権限を許可してください。
@@ -118,16 +124,9 @@ eval "$(fnm env --use-on-cd)"
 
 - [ ] Font: ターミナルのフォントを JetBrains Mono (または Nerd Font) に設定
 
-## 📂 Directory Structure
-Plaintext
+### Karabiner-Elements Setup
+Karabiner-Elements開いてComplex Modification→Add your own ruleでkarabiner/のファイルコピペが一番楽そう
+- [ ] caps-hjkl: caps押している間hjklが矢印キーになる。HHKBはレイヤー組んでるから内蔵キーボード用
 
-```
-~/dotfiles
-├── .config/
-│   └── starship.toml   # Prompt settings
-├── .gitconfig          # Git global settings
-├── .gitignore          # Global gitignore
-├── .zshrc              # Zsh configuration
-├── Brewfile            # Package list (Formula, Cask, mas, vscode)
-└── README.md           # This file
-```
+- [ ] ei-kana: 左右cmd単押しで英かなになる
+
