@@ -6,9 +6,9 @@
 brew "mas"      # App Store apps dependency
 brew "fnm"      # Node.js
 brew "uv"       # Python
-brew "pyenv"    # Python (Legacy)
 brew "ffmpeg"
 brew "sl"
+brew "dockutil" # Dock cleanup
 
 # ----------------------------------------
 # 1. Password Required Apps (Sudo Heavy)
@@ -40,6 +40,7 @@ cask "zoom"
 cask "google-chrome"
 cask "visual-studio-code"
 cask "cursor"
+cask "antigravity"
 cask "chromedriver"
 
 cask "slack"

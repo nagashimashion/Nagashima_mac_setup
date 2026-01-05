@@ -1,0 +1,99 @@
+# =========================
+# 🍎 macOS & System
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+# ファイルのアイコン位置情報など
+.Spotlight-V100
+.Trashes
+
+# =========================
+# 🔒 Secrets & Security (最重要)
+# =========================
+# SSH秘密鍵・設定（間違ってコピーした場合の保険）
+id_rsa
+id_ed25519
+*.pem
+.ssh/
+
+# 環境変数・APIキーを含むファイル
+.env
+.env.*
+!.env.example
+*.local
+
+# シェルの履歴ファイル（パスワードが含まれる可能性あり）
+.zsh_history
+.bash_history
+.lesshst
+
+# AWS / Cloud Credentials
+.aws/
+.gcloud/
+
+# =========================
+# 📦 Package Managers (Homebrew / uv / fnm)
+# =========================
+# Homebrew bundle dumpのバックアップファイル
+Brewfile.lock.json
+Brewfile.old
+Brewfile.bak
+
+# Python (uv / pyenv)
+__pycache__/
+*.pyc
+.python-version
+# uv が作成する仮想環境
+.venv/
+venv/
+ENV/
+# uvのキャッシュ（通常はプロジェクト外だが念のため）
+.uv/
+
+# Node.js (fnm)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm/
+
+# =========================
+# 📝 Editors & IDEs
+# =========================
+# VS Code / Cursor
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+# ローカル履歴拡張機能など
+.history/
+
+# JetBrains (IntelliJ, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+xcuserdata/
+
+# =========================
+# 🛠 Tools & Build Outputs
+# =========================
+# Marp (Slides) exports
+*.html
+*.pdf
+!.keep
+
+# Logs
+*.log
+
+# Backup files
+*.bak
+*.swp
+*~
